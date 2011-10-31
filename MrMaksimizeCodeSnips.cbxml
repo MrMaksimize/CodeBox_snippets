@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>E69F64B8-E2C9-40DF-B319-1D50A7ED835B</UUID>
+        <nextObjectID>106</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>251</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Asset</key>
+                        <data>
+		tyQotsO8NDvt1XE0n7ISUiSHKjen9suD2Y4EXGRd56I=
+		</data>
+                        <key>Folder</key>
+                        <data>
+		6AflOHiDpCFdpGAdI0h5t/eykc0B/9DCQLuGcURzmWI=
+		</data>
+                        <key>List</key>
+                        <data>
+		f4nmFsXfFk8V4CSJFMVZeV0UVaEd8d49csHd+yfBOO4=
+		</data>
+                        <key>Search</key>
+                        <data>
+		/Di3N1cVqPFGCxVmoUJ3wQ51ctkJsx+xJfuxAdNqToc=
+		</data>
+                        <key>Snippet</key>
+                        <data>
+		4X/rsY/TA70Pj9wVlkKWOTV5xo34weRxc8LfSD+NVD8=
+		</data>
+                        <key>Tag</key>
+                        <data>
+		tynbpfPyYUACFlBsnCbwUvDeu/vffT4ux8pptcOescY=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array></array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="LIST" id="z102">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">DOM Manipulation</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z106"></relationship>
+    </object>
+    <object type="ASSET" id="z103">
+        <attribute name="sort" type="int32">-1</attribute>
+        <attribute name="path" type="string">menuToDropdown.js</attribute>
+        <attribute name="content" type="binary">ZnVuY3Rpb24gbWVudVRvRHJvcGRvd24odG9wQ29udGFpbmVyLCB1bENsYXNzLCBjb250ZXh0KXsK
+ICBpZiAoY29udGV4dCA9PSAnbW9iaWxlJyl7CiAgICAkKCI8c2VsZWN0IC8+IikuYXBwZW5kVG8odG9wQ29udGFpbmVyKS5hZGRDbGFzcygnbW9iaWxlIG1vYmlsZS1kcm9wZG93biAnICsgdG9wQ29udGFpbmVyLnJlcGxhY2UoJyMnLCcnKSArICctbW9iaWxlJyk7CiAgICAkKCd1bCcrdWxDbGFzcyArICcgbGknLCB0b3BDb250YWluZXIpLmVhY2goIGZ1bmN0aW9uKCl7CiAgICAgICAgdmFyIGVsID0gdGhpczsKICAgICAgJCgnc2VsZWN0JywgdG9wQ29udGFpbmVyKS4KICAgICAgICBhcHBlbmQoJzxvcHRpb24gdmFsdWUgPSAiJyArCiAgICAgICAgICAgICAgICQoJ2EnLCB0aGlzKS5hdHRyKCdocmVmJykgKyAnIj4nICsKICAgICAgICAgICAgICAgJCgnYScsIHRoaXMpLnRleHQoKSArICc8L2E+Jyk7CiAgICB9KTsKICAgIC8vbm93IGhpZGUgdGhlIG9yaWdpbmFsIGxpcyBmb3IgZnV0dXJlIHVzZQogICAgJCgndWwnK3VsQ2xhc3MpLmhpZGUoKTsKICAgICQoJ3NlbGVjdCcsIHRvcENvbnRhaW5lcikuY2hhbmdlKGZ1bmN0aW9uKCl7CiAgICAgIHdpbmRvdy5sb2NhdGlvbiA9ICQodGhpcykuZmluZCgib3B0aW9uOnNlbGVjdGVkIikudmFsKCk7CiAgICB9KTsKICB9CiAgZWxzZXsKICAgICQoJ3VsJyt1bENsYXNzKS5zaG93KCk7CiAgICAkKCdzZWxlY3QnLCB0b3BDb250YWluZXIpLnJlbW92ZSgpOwogIH0KfQ==
+</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z106"></relationship>
+    </object>
+    <object type="FOLDER" id="z104">
+        <attribute name="sort" type="int16">1</attribute>
+        <attribute name="name" type="string">JavaScript</attribute>
+        <attribute name="expanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER" idrefs="z102"></relationship>
+    </object>
+    <object type="SEARCH" id="z105">
+        <attribute name="sort" type="int16">0</attribute>
+        <attribute name="name" type="string">All Snippets</attribute>
+        <attribute name="expanded" type="bool">0</attribute>
+        <relationship name="parent" type="1/1" destination="FOLDER"></relationship>
+        <relationship name="children" type="0/0" destination="FOLDER"></relationship>
+    </object>
+    <object type="SNIPPET" id="z106">
+        <attribute name="name" type="string">function menuToDropdown(topContainer, ulClass, context){</attribute>
+        <attribute name="modified" type="date">341587566.95469301939010620117</attribute>
+        <attribute name="locked" type="bool">0</attribute>
+        <relationship name="list" type="1/1" destination="LIST" idrefs="z102"></relationship>
+        <relationship name="assets" type="0/0" destination="ASSET" idrefs="z103"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+</database>
